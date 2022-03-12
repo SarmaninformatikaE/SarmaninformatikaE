@@ -1,0 +1,12 @@
+#percabangan elif
+umur = 22
+if (umur >17 and umur <20) :
+    print("sudah beranjak dewasa")
+elif(umur>20 and umur <50) :
+	  print("masa masa emas")
+elif(umur >50 and umur <55) :
+	  print("masa parun baya")
+elif(umur >=55) :
+	  print("masa manula")
+else :
+	  print("masih di bawah umur")
