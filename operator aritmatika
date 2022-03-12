@@ -1,0 +1,17 @@
+nilai1 = 9 
+nilai2 = 3
+
+#penjumlah 
+print(nilai1 + nilai2)
+#pegurangan 
+print(nilai1 - nilai2)
+#perkalian 
+print(nilai1 * nilai2)
+#pembagian 
+print(nilai1 / nilai2)
+#sisa bagi 
+print(nilai1 % nilai2)
+#pangkat
+print(nilai1 ** nilai2)
+#pembagian bulat
+print(nilai1 // nilai2)
