@@ -1,0 +1,33 @@
+#Perbandingan
+# Sama dengan ==
+# Tidak sama dengan !=
+#lebih besar dari >
+#lebih kecil dari <
+#lebih besar atau sama dengan >=
+#lebih kecil atau sama dengan >=
+
+#Sama dengan
+a = 10
+b = 5
+if a == b :
+	print("itu salah")
+	
+#tidak sama dengan
+if a != b :
+	print("itu benar")
+	
+#lebih besar dari
+if a > b :
+	print("itu benar")
+	
+#lebih kecil dari
+if a < b :
+	print("itu benar")
+	
+#lebih besar atau sama dengan
+if a >= b :
+	print("itu benar")
+	
+#lebih kecil atau sama dengan
+if a <= b :
+	print("itu salah")
