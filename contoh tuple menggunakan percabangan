@@ -1,0 +1,34 @@
+#membuat contoh tuple
+hewan = ("sapi","kambing","kelinci","sapi","domba")
+
+#menampilkan tuple dengan perulangan 
+for i in hewan :
+	print(i)
+	
+a = 0
+while a < len(hewan) :
+	print(hewan[a])
+	a += 1
+	
+hewan = list(hewan)
+
+#mengupdate salah satu tuple 
+hewan[2]= "ayam"
+print(hewan)
+
+#menghapus salah satu tuple 
+hewan.pop()
+print(hewan)
+
+hewan.remove("kambing")
+print(hewan)
+
+del hewan [0:2]
+print(hewan)
+
+#menambahkan tuple
+hewan.append("ular")
+print(hewan)
+
+hewan.extend(["buaya","cacing"])
+print(hewan)
